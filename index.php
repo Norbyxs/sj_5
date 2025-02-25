@@ -15,14 +15,28 @@
     echo $farby[0];
     echo ("<br>");
     foreach ($farby as $farba) {
-        $data = array("Peter" => 25,
-                    "Jana" => 30,
-                    "Marek" => 20);
-    foreach($data as $name => $age){
-        echo
+        $data = array(
+            "Peter" => 25,
+            "Jana" => 30,
+            "Marek" => 20
+        );
+        //foreach($data as $name => $age){
+        //echo
+        //}
+        //uloha//
+        $pole = ["Jablko", "Hruška", "Banán", "Čerešňa", "Pomaranč"];
+
+
+        $pocetPrvkov = count($pole);
+
+
+        for ($i = 0; $i < $pocetPrvkov; $i++) {
+            echo $pole[$i] . "<br>";
+        }
+
+
     }
-    }
-    
+
     ?>
 </body>
 
