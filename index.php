@@ -15,8 +15,14 @@
     echo $farby[0];
     echo ("<br>");
     foreach ($farby as $farba) {
-        echo "Farba:" . $farba . "<br>";
+        $data = array("Peter" => 25,
+                    "Jana" => 30,
+                    "Marek" => 20);
+    foreach($data as $name => $age){
+        echo
     }
+    }
+    
     ?>
 </body>
 
